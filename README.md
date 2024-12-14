@@ -3,6 +3,11 @@ golang-lru
 
 This provides the `lru` package which implements a fixed-size
 thread safe LRU cache. It is based on the cache in Groupcache.
+This is a fork of the golan-lru cache package with some minor
+additions. Following are the list of changes
+
+- onEvict method for all LRU implementation
+- Range method to read through all the <key , value> in LRU (synchronous and locked)
 
 Documentation
 =============
