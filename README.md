@@ -6,8 +6,8 @@ thread safe LRU cache. It is based on the cache in Groupcache.
 This is a fork of the golan-lru cache package with some minor
 additions. Following are the list of changes
 
-- onEvict method for all LRU implementation
-- Range method to read through all the <key , value> in LRU (synchronous and locked)
+- onEvict method for all LRU implementation (wip)
+- Range method to read through all the <key , value> in LRU (synchronous and locked) (wip)
 
 Documentation
 =============
